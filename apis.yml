@@ -1,7 +1,28 @@
 aid: envisia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/envisia.png
 name: Envisia
-description: Envisia is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Envisia (Envisia Therapeutics, Inc.) was a clinical-stage biopharmaceutical company based in
+  Research Triangle Park, North Carolina, spun out of Liquidia Technologies to apply PRINT
+  (Particle Replication In Non-wetting Templates) particle-engineering to sustained-release
+  ophthalmic therapeutics. Its lead candidate, ENV515 (travoprost) extended-release, was an
+  intracameral implant intended to lower intraocular pressure in glaucoma patients for months
+  from a single administration. The company was venture-backed by Canaan Partners, New Enterprise
+  Associates, Morningside, and Batterson Venture Capital, and was acquired by Aerie Pharmaceuticals
+  in October 2016. As a therapeutics company it exposes no public developer, API, or documentation
+  surface, and its former web domains no longer resolve; this profile is retained as a
+  VC-portfolio lead record with no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/envisia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Therapeutics
+- Ophthalmology
+- Drug Delivery
+- Healthcare
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
